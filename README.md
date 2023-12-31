@@ -1,4 +1,4 @@
-# Transactions Serialization Verifier
+# Transactions Serializability Verifier
 
 This is a compact Python script designed to confirm the serializability of provided DBMS transactions. You can run it, type your transactions and see if they are 1) already serialized, 2) conflict-serializable, 3) view-serializable.
 

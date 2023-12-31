@@ -11,6 +11,8 @@ This is a compact Python script designed to confirm the serializability of provi
 Upon running `verifier.py`, you'll encounter a prompt to input your transactions in chronological order. Follow the instructions by typing transactions in the format `T[transaction number].[read or write operation]([variable])`. For instance, `T1.R(A)` or `T2.W(b)` or `t3.r(a)`. Type `done` when all transactions are entered (case-insensitive).
 
 Note: Once you've inputted all transactions, the application will generate windows displaying graphs showcasing dependencies and a potential topological sorting of those transactions.
+
+Here's a small example:
 ```
 [user@distro dbms-transaction-serializability-verifier]$ python3 verifier.py 
 Following will be printed in order for the given schedule: 
